@@ -128,6 +128,7 @@ import numpy as np
 import matplotlib
 import nnfs
 import matplotlib.pyplot as plt
+import math
 
 nnfs.init()
 
@@ -147,14 +148,14 @@ class Activation_ReLU:
     def forward(self, inputs):
         self.output = np.maximum(0, inputs)
 
-layer1 = Layer_Dense(4, 5)  # Adjust the number of inputs to match the number of features in your dataset
-activation1 = Activation_ReLU()
+# layer1 = Layer_Dense(4, 5)  # Adjust the number of inputs to match the number of features in your dataset
+# activation1 = Activation_ReLU()
 
-layer1.forward(X)  # Convert X to a list and pass it to forward method
+# layer1.forward(X)  # Convert X to a list and pass it to forward method
 
-activation1.forward(layer1.output)
+# activation1.forward(layer1.output)
 
-print(layer1.output)
+# print(layer1.output)
 
 
 # this function create the spiral dataset
@@ -174,3 +175,6 @@ print(layer1.output)
 
 # plt.scatter(X[:,0], X[:,1])
 # plt.show()
+
+
+# exponentiation
