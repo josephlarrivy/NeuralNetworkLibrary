@@ -5,6 +5,7 @@ import nnfs
 import matplotlib.pyplot as plt
 import math
 
+
 nnfs.init()
 
 
