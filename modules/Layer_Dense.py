@@ -21,3 +21,24 @@ class Layer_Dense:
         # Gradient on values
         self.dinputs = np.dot(dvalues, self.weights.T)
 
+
+
+'''
+- this class defines a dense (fully connected) layer of the network
+
+- the init method takes in the number of input that the layer is going to be receiving and defines the number of neurons that the layer will contain
+    - it initializes with random weights for each connection between the previous layer and the neurons
+    - it initializes zeros for the biases
+
+- the forward method implements a forward pass through the layer
+    - it takes in the input values and:
+        1. stores a copy of the inputs
+        2. calculates the weighted sum of inputs using the dot product with weights
+        3. adds the biases
+        4. stores the result in the output
+
+- the backward method implements a backward pass through the layer
+    - this is used in training to update the weights and biases
+    
+
+'''
