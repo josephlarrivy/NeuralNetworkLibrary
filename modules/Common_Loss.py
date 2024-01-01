@@ -10,3 +10,9 @@ class Loss:
         data_loss = np.mean(sample_losses)
         # Return loss
         return data_loss
+
+
+'''
+loss is the difference between the predicted output and the actual target
+loss functions take the predicted outputs of the model and the actual targets as inputs and compute a single value that indicates the dissimilarity between the predicted and actual values
+'''

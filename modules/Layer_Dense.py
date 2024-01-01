@@ -40,5 +40,7 @@ class Layer_Dense:
 - the backward method implements a backward pass through the layer
     - this is used in training to update the weights and biases
     
+    I NEED TO FIGURE THIS OUT
+
 
 '''
