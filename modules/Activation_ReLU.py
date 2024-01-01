@@ -21,6 +21,7 @@ class Activation_ReLU:
 - for any input value that is less than zero, function will output zero
 - for any input value that is greater than zero, function will output the input value
 
+
 - forward method calls the activation function on the inputs
     - applies the ReLU to the inputs
     - uses maximum to change any negative numbers to a zero
