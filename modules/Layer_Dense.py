@@ -34,7 +34,7 @@ class Layer_Dense:
         - this essentially dictates how many 'columns' the 2d array will have
     
     - think of it as each 'column' of the 2d array is a list of the weights that are going into a given neuron
-    - and each 'row' of the 2d array are the wieghts that are 'leaving' and input neuron destined for each neuron in the next layer
+    - and each 'row' of the 2d array are the wieghts that are 'leaving' and input neuron destined for each neuron in the layer that this instance of the class is creating
 
 - the forward method implements a forward pass through the layer
     - it takes in the input values and:
